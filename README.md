@@ -60,19 +60,16 @@ For each metric selected as an evaluation metric, with a sample size of 5000 coo
 
 std of binomial distribution = sqrt(p*(1-p)/n)
 
-Gross convention: \n
-n= 3200/40000\*5000=400
-
+Gross convention:  
+n= 3200/40000\*5000=400  
 Std = sqrt(0.20625\*(1-0.20625)/400) = 0.0202
 
-Retention: \n
-n= 660/40000\*5000=82.5
-
+Retention:  
+n= 660/40000\*5000=82.5  
 Std = sqrt(0.53\*(1-0.53)/82.5) = 0.0549
 
-Net conversion: \n
-n= 3200/40000\*5000=400
-
+Net conversion:  
+n= 3200/40000\*5000=400  
 Std = sqrt(0.1093125*(1-0.1093125)/400) = 0.0156
 
 ## Sizing
