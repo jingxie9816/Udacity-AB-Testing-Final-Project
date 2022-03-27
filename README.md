@@ -50,6 +50,7 @@ Net conversion: That is, number of user-ids to remain enrolled past the 14-day b
 ## Calculating standard deviation
 For each metric selected as an evaluation metric, with a sample size of 5000 cookies visiting the course overview page, their analytical standard deviation can be calculated as below using [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
+| header1 | header2 |
 | ------------------------------------------------------- | --------------------- |
 |Unique cookies to view course overview page per day:     |	40000                 |
 |Unique cookies to click "Start free trial" per day:      |	3200                  |
