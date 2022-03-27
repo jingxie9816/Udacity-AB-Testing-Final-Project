@@ -3,6 +3,7 @@ My solution to the final project of AB Testing course on Udacity
 
 ## Experiment Overview
 At the time of this experiment, Udacity courses currently have two options on the course overview page: "start free trial", and "access course materials". If the student clicks "start free trial", they will be asked to enter their credit card information, and then they will be enrolled in a free trial for the paid version of the course. After 14 days, they will automatically be charged unless they cancel first. If the student clicks "access course materials", they will be able to view the videos and take the quizzes for free, but they will not receive coaching support or a verified certificate, and they will not submit their final project for feedback.
+
 In the experiment, Udacity tested a change where if the student clicked "start free trial", they were asked how much time they had available to devote to the course. If the student indicated 5 or more hours per week, they would be taken through the checkout process as usual. If they indicated fewer than 5 hours per week, a message would appear indicating that Udacity courses usually require a greater time commitment for successful completion, and suggesting that the student might like to access the course materials for free. At this point, the student would have the option to continue enrolling in the free trial, or access the course materials for free instead. This screenshot shows what the experiment looks like as below.
 
 ![Final Project_ Experiment Screenshot](https://user-images.githubusercontent.com/88932816/160266145-f0641ccf-1920-45ff-b494-be02749411d7.png)
@@ -53,13 +54,16 @@ For each metric selected as an evaluation metric, with a sample size of 5000 coo
 
 std of binomial distribution = sqrt(p*(1-p)/n)
 
-Gross convention: n= 3200/40000*5000=400
+Gross convention: 
+n= 3200/40000*5000=400
 Std = sqrt(0.20625*(1-0.20625)/400) = 0.0202
 
-Retention: n= 660/40000*5000=82.5
+Retention: 
+n= 660/40000*5000=82.5
 Std = sqrt(0.53*(1-0.53)/82.5) = 0.0549
 
-Net conversion: n= 3200/40000*5000=400
+Net conversion: 
+n= 3200/40000*5000=400
 Std = sqrt(0.1093125*(1-0.1093125)/400) = 0.0156
 
 ## Sizing
