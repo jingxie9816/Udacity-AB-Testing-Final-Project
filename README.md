@@ -51,26 +51,26 @@ Net conversion: That is, number of user-ids to remain enrolled past the 14-day b
 For each metric selected as an evaluation metric, with a sample size of 5000 cookies visiting the course overview page, their analytical standard deviation can be calculated as below using [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
 
-|Unique cookies to view course overview page per day:|	40000|
-|Unique cookies to click "Start free trial" per day:|	3200|
-|Enrollments per day:|	660|
-|Click-through-probability on "Start free trial":|	3200/40000=0.08|
-|Probability of enrolling, given click: (gross conversion)|	660/3200=0.20625|
-|Probability of payment, given enroll: (retention)|	0.53|
-|Probability of payment, given click: (net conversion)|	0.53*0.20625=0.1093125|
+|Unique cookies to view course overview page per day:     |	40000                 |
+|Unique cookies to click "Start free trial" per day:      |	3200                  |
+|Enrollments per day:                                     |	660                   |
+|Click-through-probability on "Start free trial":         |	3200/40000=0.08       |
+|Probability of enrolling, given click: (gross conversion)|	660/3200=0.20625      |
+|Probability of payment, given enroll: (retention)        |	0.53                  |
+|Probability of payment, given click: (net conversion)    |	0.53*0.20625=0.1093125|
 
 std of binomial distribution = sqrt(p*(1-p)/n)
 
 Gross convention: 
-n= 3200/40000*5000=400
-Std = sqrt(0.20625*(1-0.20625)/400) = 0.0202
+n= 3200/40000\*5000=400
+Std = sqrt(0.20625\*(1-0.20625)/400) = 0.0202
 
 Retention: 
-n= 660/40000*5000=82.5
-Std = sqrt(0.53*(1-0.53)/82.5) = 0.0549
+n= 660/40000\*5000=82.5
+Std = sqrt(0.53\*(1-0.53)/82.5) = 0.0549
 
 Net conversion: 
-n= 3200/40000*5000=400
+n= 3200/40000\*5000=400
 Std = sqrt(0.1093125*(1-0.1093125)/400) = 0.0156
 
 ## Sizing
