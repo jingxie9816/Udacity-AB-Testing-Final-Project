@@ -16,12 +16,19 @@ Below are available metrics in this case. The practical significance boundary fo
 PS: Any place "unique cookies" are mentioned, the uniqueness is determined by day. (That is, the same cookie visiting on different days would be counted twice.) User-ids are automatically unique since the site does not allow the same user-id to enroll twice.
 
 **Number of cookies**: That is, number of unique cookies to view the course overview page. (dmin=3000)
+
 **Number of user-ids**: That is, number of users who enroll in the free trial. (dmin=50)
+
 **Number of clicks**: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240)
+
 **Click-through-probability**: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01)
+
 **Gross conversion**: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01)
+
 **Retention**: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01)
+
 **Net conversion**: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075)
+
 
 ### Choosing Invariant Metrics:
 Number of cookies: Since the experimental change of Free Trial Screener happens after users clicking “start free trial” button, so should be no impact on the number of cookies
