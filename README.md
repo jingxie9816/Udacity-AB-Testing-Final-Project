@@ -165,7 +165,7 @@ Gross conversion_exp= 3423/17260= 0.1983 # Since enrollments only have 23 days r
 D_hat = 0.1983-0.2189=-0.0206  
 Pooled_gross conversion = (3785+3423)/(17293+17260)=0.2086  
 Pooled_SE = sqrt(0.2086*(1-0.2086)*(1/17293+1/17260) = 0.0044  
-Margin of error = 1.96*0.0044 = 0.0086  
+Margin of error = 1.96\*0.0044 = 0.0086  
 Lower bound = -0.0206-0.0086 = -0.0291  
 Upper bound = -0.0206+0.0086 = -0.0120  
 The Confidence interval doesn’t include 0, so it is statistically significant, given dmin = 0.01, C.I. also doesn’t include -0.01 or 0.01, so it’s also practically significant.   
@@ -177,7 +177,7 @@ retention_exp= 1945/3423= 0.5682
 D_hat = 0.5682-0.5371 = 0.0311  
 Pooled_gross conversion = (2033+1945)/( 3785+3423)=0.5519  
 Pooled_SE = sqrt(0.5519*(1-0.5519)*(1/3785+1/3423) = 0.0117  
-Margin of error = 1.96*0.0117= 0.0230  
+Margin of error = 1.96\*0.0117= 0.0230  
 Lower bound = 0.0311-0.0230 = 0.0081  
 Upper bound = 0.0311+0.0230 = 0.0541  
 The Confidence interval doesn’t include 0, so it is statistically significant, given dmin = 0.01, C.I. does include 0.01, so it’s not practically significant.   
@@ -189,7 +189,7 @@ retention_exp= 1945/17260= 0.1127
 D_hat = 0.1127 - 0.1176= -0.0049  
 Pooled_gross conversion = (2033+1945)/( 17293+17260)=0.1151  
 Pooled_SE = sqrt(0.1151*(1-0.1151)*(1/17293+1/17260) = 0.0034  
-Margin of error = 1.96*0.0034= 0.0067  
+Margin of error = 1.96\*0.0034= 0.0067  
 Lower bound = -0.0049-0.0067 = -0.0116  
 Upper bound = -0.0049+0.0067 = 0.0019  
 The Confidence interval includes 0, so it is not statistically significant. Given dmin = 0.0075, C.I. does include -0.0075, so it’s not practically significant.   
